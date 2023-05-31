@@ -10,7 +10,6 @@ export function HomePage(props) {
   const { actions } = useHomePageSlice();
   const data = useSelector(selectDetails);
   const loading = useSelector(selectLoading);
-  debugger;
   const cols = [
     { field: 'id', headerName: 'ID', width: 150 },
     { field: 'country', headerName: 'Country', width: 200 },
